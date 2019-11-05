@@ -1,0 +1,7 @@
+{
+  "name": "capacitorNetwork",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
