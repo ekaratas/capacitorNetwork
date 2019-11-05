@@ -1,14 +1,16 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Ionic Capacitor Örnek
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+  <ion-item>
+  <ion-label>Pano Test</ion-label>
+  <ion-input placeholder="Değer Giriniz" autofocus="True" [(ngModel)]="deger"></ion-input>
+</ion-item>
+<ion-button expand="block" color="success" (click)="yaz()">Yaz</ion-button>
+<ion-button expand="block" color="primary" (click)="oku()">Oku</ion-button>
 </ion-content>
